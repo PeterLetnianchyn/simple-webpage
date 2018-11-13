@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Social pooling</title>
+</head>
+<body>
+<h1>СОЦІАЛЬНЕ ОПИТУВАННЯ НА ТЕМУ "СОЦІАЛЬНІ МЕРЕЖІ"</h1>    
+    <form method="post" action="https://formspree.io/katalol95@gmail.com">
+        <label>Ім'я:
+        <br>
+        <input type="text" id="client-name" placeholder="Ім'я"
+        required name="client-name">
+        </label>
+        <br>
+        <label>Email<br>
+            <input type="email" placeholder="email" 
+            required name="client-email">
+        </label>
+        <br>
+        <label>Стать</label>
+        <label>
+            <input type="radio" name="gender" value="male">Чоловіча
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female"> Жіноча
+            </label>
+        <label>
+            <input type="radio" name="gender" value="other"> Інша
+        </label>
+        <br>
+        <label>Дата народження
+        <input type="date" name="bday" min="1920-01-31" max="2018-01-31">
+        </label>
+        <br>
+        <p>Як багато часу ви проводити в соціальних мережах</p>
+        <label>
+            <input type="radio" name="time" value="time">менше 1год
+        </label>
+        <label>
+            <input type="radio" name="time" value="time"> 2-3год
+        </label>
+        <label>
+            <input type="radio" name="time" value="time"> більше 3год
+        </label>
+        <label>
+            <input type="radio" name="time" value="time"> не проводжу
+        </label>
+        <p>Чи є соціальні мережі корисними?</p>
+        <label>
+            <input type="checkbox" name="time" value="yes">Так
+        </label>
+        <label>
+            <input type="checkbox" name="time" value="no"> Ні
+        </label>
+        <p>
+          <label>
+            ЧОМУ КОРИСНІ АБО НЕ КОРИСНІ СОЦІАЛЬНІ МЕРЕЖІ?:
+          </label><br>
+          <textarea name="Message" cols="60" rows="10"></textarea>
+          
+        </p>
+        <label>
+            <input type="submit">
+        </label>
+    </form>
+
+</body>
+</html>

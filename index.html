@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Social pooling</h1>
+      <img src="social-networks.png" alt="social"><nav>
+        <a href="social-polling.html">Polls about social networks</a>
+        <br>
+        <a href="#">Other pooling</a>
+        <br>
+        <a href="#">Other pooling</a>
+        <br>
+        <a href="#">Other pooling</a>
+      </nav>
+      <h2>Sign in/Sign up</h2>
+      <form name="Sign in" method="post" action="https://formspree.io/katalol95@gmail.com">
+        Login: 
+        <br>
+        <input name="login" type="text" size="25" maxlength="30" value="" /> 
+        <br>
+        Password: <br />
+        <input name="pd" type="password" size="25" maxlength="30" value="" /> 
+        <br>
+        <input name="remember" type="checkbox" value="yes" /> Remember me
+        <br>
+        <input type="submit" name="enter" value="Sign in" />
+        <input type="submit" name="enter" value="Sign up" />
+      </form>
+    </header>
+    <article>
+      <h2>Напишіть нам і Ви обов'язково отримаєте відповідь</h2>
+        <p>
+          <label>
+            Ваше ім'я:          </label>
+          <br>
+          <input class="error" name="Name" type="text">          
+        </p>
+        <p class="error_massage"></p>
+        <div>
+        <p>
+          <label>
+            Your email:
+          </label>
+          <br>
+          <input name="Email" type="text">
+         
+        </p>
+        </div>
+        <div>
+        <p>
+          <label>
+            Your massege:
+          </label><br>
+          <textarea name="Message" cols="30" rows="10"></textarea>
+          
+        </p>
+       </div> 
+        <button type="button" onclick="contactsSendMessage()">Send massage</button>
+
+    </article>
+    <main>
+      <h1>The main content</h1>
+    </main>
+    <aside>
+      <h3>Advertising</h3>
+    </aside>
+    <footer>
+      <h3>Some FOOTER</h3>
+    </footer>
+  
+  
+  </body>
+</html>
